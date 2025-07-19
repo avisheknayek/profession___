@@ -1,0 +1,40 @@
+img {
+    height: 185px;
+    width: 200px;
+    border-radius: 5px;
+}
+.card {
+    display: inline-block;
+    border: 3px solid black;
+    margin: 8px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px;
+    box-shadow: 3px 3px 10px black;    
+}
+.card:hover {
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.808);
+    box-shadow: 9px 9px 10px black;
+    transition: 1s;
+}
+img:hover {
+    border-radius: 8px;
+}
+#man {
+    position: relative;
+    top: 10px;
+    left: 550px;
+}
+#woman {
+    position: relative;
+    top: 10px;
+    left: 550px;
+}
+h2 {
+    padding-left: 5px;
+}
+p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
